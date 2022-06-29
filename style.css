@@ -1,0 +1,47 @@
+body{
+    background-color: lightgrey;
+}
+main{
+    margin-top: 20vh;
+    font-size: 50px;
+    text-align: center;
+}
+#number{
+    font-size: 90px;
+}
+#decrease{
+    text-align: center;
+    cursor: pointer;
+    font-size: medium;
+    border-radius: 25px;
+    box-shadow: 5px 5px black;
+}
+#decrease:hover{
+    color: white;
+    background-color: red;
+    transition: 0.7s;
+}
+#reset{
+    text-align: center;
+    cursor: pointer;
+    font-size: medium;
+    border-radius: 25px;
+    box-shadow: 5px 5px black;
+}
+#reset:hover{
+    color: white;
+    background-color: black;
+    transition: 0.7s;
+}
+#increase{
+    text-align: center;
+    cursor: pointer;
+    font-size: medium;
+    border-radius: 25px;
+    box-shadow: 5px 5px black;
+}
+#increase:hover{
+    color: white;
+    background-color: blue;
+    transition: 0.7s;
+}
